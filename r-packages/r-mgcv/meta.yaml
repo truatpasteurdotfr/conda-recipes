@@ -2,18 +2,18 @@ package:
   name: r-mgcv
   # Note that conda versions cannot contain -, so any -'s in the version have
   # been replaced with _'s.
-  version: "1.8_9"
+  version: "1.8_10"
 
 source:
-  fn: mgcv_1.8-9.tar.gz
+  fn: mgcv_1.8-10.tar.gz
   url:
-    - http://cran.r-project.org/src/contrib/mgcv_1.8-9.tar.gz
-    - http://cran.r-project.org/src/contrib/Archive/mgcv/mgcv_1.8-9.tar.gz
+    - http://cran.r-project.org/src/contrib/mgcv_1.8-10.tar.gz
+    - http://cran.r-project.org/src/contrib/Archive/mgcv/mgcv_1.8-10.tar.gz
 
 
   # You can add a hash for the file here, like md5 or sha1
-  # md5: 49448ba4863157652311cc5ea4fea3ea
-  # sha1: 3bcfbee008276084cbb37a2b453963c61176a322
+  # md5: 3984f980d63f0900bdb3697861ff9af2
+  # sha1: f9d87ae1c0b4d566648030cff0a229757a3f8148
   # patches:
    # List any patch files here
    # - fix.patch
@@ -64,11 +64,11 @@ about:
 # The original CRAN metadata for this package was:
 
 # Package: mgcv
-# Version: 1.8-9
+# Version: 1.8-10
 # Author: Simon Wood <simon.wood@r-project.org>
 # Maintainer: Simon Wood <simon.wood@r-project.org>
 # Title: Mixed GAM Computation Vehicle with GCV/AIC/REML Smoothness Estimation
-# Description: GAMs, GAMMs and other generalized ridge regression with  multiple smoothing parameter estimation by GCV, REML or UBRE/AIC.  Includes a gam() function, a wide variety of smoothers, JAGS  support and distributions beyond the exponential family.
+# Description: GAMs, GAMMs and other generalized ridge regression with multiple smoothing parameter estimation by GCV, REML or UBRE/AIC.  Includes a gam() function, a wide variety of smoothers, JAGS support and distributions beyond the exponential family.
 # Priority: recommended
 # Depends: R (>= 2.14.0), nlme (>= 3.1-64)
 # Imports: methods, stats, graphics, Matrix
@@ -77,9 +77,9 @@ about:
 # ByteCompile: yes
 # License: GPL (>= 2)
 # NeedsCompilation: yes
-# Packaged: 2015-10-30 09:42:04 UTC; sw283
+# Packaged: 2015-12-12 07:33:02 UTC; sw283
 # Repository: CRAN
-# Date/Publication: 2015-10-30 10:53:27
+# Date/Publication: 2015-12-12 18:49:20
 
 # See
 # http://docs.continuum.io/conda/build.html for
