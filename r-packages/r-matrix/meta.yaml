@@ -2,18 +2,18 @@ package:
   name: r-matrix
   # Note that conda versions cannot contain -, so any -'s in the version have
   # been replaced with _'s.
-  version: "1.2_2"
+  version: "1.2_3"
 
 source:
-  fn: Matrix_1.2-2.tar.gz
+  fn: Matrix_1.2-3.tar.gz
   url:
-    - http://cran.r-project.org/src/contrib/Matrix_1.2-2.tar.gz
-    - http://cran.r-project.org/src/contrib/Archive/Matrix/Matrix_1.2-2.tar.gz
+    - http://cran.r-project.org/src/contrib/Matrix_1.2-3.tar.gz
+    - http://cran.r-project.org/src/contrib/Archive/Matrix/Matrix_1.2-3.tar.gz
 
 
   # You can add a hash for the file here, like md5 or sha1
-  # md5: 49448ba4863157652311cc5ea4fea3ea
-  # sha1: 3bcfbee008276084cbb37a2b453963c61176a322
+  # md5: 3caed93a21b9ce3e51773dd80603961f
+  # sha1: 264c309b91f81df4e6f0b00b58c17b481376bb08
   # patches:
    # List any patch files here
    # - fix.patch
@@ -61,8 +61,8 @@ about:
 # The original CRAN metadata for this package was:
 
 # Package: Matrix
-# Version: 1.2-2
-# Date: 2015-07-03
+# Version: 1.2-3
+# Date: 2015-11-19
 # Priority: recommended
 # Title: Sparse and Dense Matrix Classes and Methods
 # Author: Douglas Bates <bates@stat.wisc.edu> and Martin Maechler
@@ -82,9 +82,10 @@ about:
 # LicenseNote: The Matrix package includes libraries AMD, CHOLMOD, COLAMD, CSparse and SPQR from the SuiteSparse collection of Tim Davis.  All sections of that code are covered by the GPL or LGPL licenses.  See the directory doc/UFsparse for details.
 # URL: http://Matrix.R-forge.R-project.org/
 # NeedsCompilation: yes
-# Packaged: 2015-07-03 21:27:51 UTC; maechler
+# Packaged: 2015-11-27 14:50:41 UTC; maechler
 # Repository: CRAN
-# Date/Publication: 2015-07-08 09:35:36
+# Date/Publication: 2015-11-28 14:44:50
+# 
 
 # See
 # http://docs.continuum.io/conda/build.html for
